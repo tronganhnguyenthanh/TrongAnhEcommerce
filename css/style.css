@@ -116,9 +116,8 @@ h2{
   font-size:24px;
   text-transform:uppercase;
   position:absolute;
-  top:0;
-  left:48%;
-  color:#fff; 
+  left:38%;
+  color:#fff;
 }
 
 .darling{
@@ -127,11 +126,28 @@ h2{
   font-weight:bold;
   font-size:24px;
   text-transform:uppercase;
-  position:absolute;
-  left:24%;
-  top:40%;
+  position:relative;
+  top:8%;
+  left:-40%;
   color:#fff;
 }
+
+.last_image{
+  position:absolute;
+  left:60%;
+}
+
+.beyond{
+  font-family:SVN-Gilroy;
+  font-style:normal;
+  font-weight:bold;
+  font-size:24px;
+  text-transform:uppercase;
+  position:absolute;
+  bottom:0;
+  left:3%;
+}
+
 @media (max-width:576px){
   .navbar-brand {
     font-family:SVN-Gilroy;
@@ -154,7 +170,6 @@ h2{
   }
   .mystery{
     position:absolute;
-    top:10%;
     left:72%;
   }
   .group-image{
