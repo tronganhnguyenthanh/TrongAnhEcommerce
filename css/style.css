@@ -1,0 +1,172 @@
+@font-face{
+ font-family:"SVN-GilRoy";
+ src:url("../fonts/SVN-Gilroy\ Light.otf");
+}
+html{
+ overflow-x:hidden;
+ overflow-y:scroll;
+}
+
+#navbarSupportedContent{
+  margin-left:70%;
+}
+
+.navbar-brand{
+  font-family:SVN-Gilroy;
+  font-style:normal;
+  font-weight:bold;
+  font-size:24px;
+  line-height:25px;
+  text-transform:uppercase;
+}
+
+.nav-link{
+  font-family:SVN-Gilroy;
+  font-style:normal;
+  font-weight:500;
+  font-size:16px;
+  color:#000000 !important;
+}
+
+.banner{
+  width:100%;
+  height:auto;
+  background-image:url("../img/Banner.png");
+  background-size:100%;
+  background-repeat:no-repeat;
+}
+
+h2{
+ font-family:SVN-Gilroy;
+ font-style:normal;
+ font-weight:bold;
+ font-size:64px;
+}
+
+.reven{
+  margin-top:18% !important;
+  letter-spacing:0.5em !important;
+}
+
+.icon-group{
+  position:absolute;
+  top:580px;
+}
+
+.shop_now:hover{
+  text-decoration:none;
+  color:#000000;
+}
+
+.shop_now{
+  font-family:SVN-Gilroy !important;
+  font-style:normal !important;
+  font-weight:500 !important;
+  font-size:16px !important;
+  color:#000000;
+}
+
+.shop_now::after{
+  content:url("../img/arrow_icon.svg");
+  vertical-align:middle !important;
+  margin-left:0%;
+}
+
+.shop_now_group{
+  margin-left:90%;
+  margin-top:14%;
+}
+
+.empty-rectangle{
+  width:100%;
+  height:100px;
+  background-color:#C4C4C4;
+  margin-top:19%;
+}
+
+.text{
+  font-size:16px !important;
+  text-align:left;
+  margin-top:20%;
+  font-family:SVN-GilRoy;
+  font-weight:bold;
+}
+
+.rectangle{
+  width:55%;
+  height:60px;
+  background-color:#C4C4C4;
+  margin-left:22%;
+}
+
+.text-100{
+  font-size:16px;
+  font-family:SVN-GilRoy;
+  font-weight:bold;
+}
+
+.group_text{
+  margin-top:9%;
+}
+
+.mystery{
+  font-family:SVN-Gilroy;
+  font-style:normal;
+  font-weight:bold;
+  font-size:24px;
+  text-transform:uppercase;
+  position:absolute;
+  top:0;
+  left:48%;
+  color:#fff; 
+}
+
+.darling{
+  font-family:SVN-Gilroy;
+  font-style:normal;
+  font-weight:bold;
+  font-size:24px;
+  text-transform:uppercase;
+  position:absolute;
+  left:24%;
+  top:40%;
+  color:#fff;
+}
+@media (max-width:576px){
+  .navbar-brand {
+    font-family:SVN-Gilroy;
+    font-style:normal;
+    font-weight:bold;
+    font-size:18px;
+    line-height:25px;
+    text-transform:uppercase;
+  }
+  .banner{
+    width:100%;
+    background-image:url("../img/Banner.png");
+    background-size:100%;
+    background-repeat:no-repeat;
+  }
+  .empty-rectangle{
+    width:100%;
+    height:50px;
+    margin-top:2%;
+  }
+  .mystery{
+    position:absolute;
+    top:10%;
+    left:72%;
+  }
+  .group-image{
+    position:relative;
+  }
+
+  .img-mystery{
+    width:100%;
+    margin-left:3%;
+  }
+  .img-darling{
+    margin-top:2%;
+    margin-left:2%;
+  }
+}
