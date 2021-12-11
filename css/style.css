@@ -530,3 +530,36 @@ h2{
   color:#828282;
 }
 
+.quantity{
+  width:52%;
+  height:35px;
+  background-color:#F2F2F2;
+  border-radius:30px
+}
+
+.add-to-detail-cart{
+  background:none;
+  border:none;
+}
+
+.quantity-group{
+  display:flex;
+  margin-top:14%;
+}
+
+.circle-icon{
+  width:25%;
+  height:auto;
+  background-color:#000000;
+  border-radius:50%;
+  display:inline-block;
+}
+
+.fas.fa-arrow-right{
+  margin-left:15%;
+}
+
+.icon-heart{
+  position:absolute;
+  left:72%;
+}
